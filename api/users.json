@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "uuid": "5bc98651-e8b6-42c1-a8d0-3dbb83b294dc",
+      "id": 1,
+      "email": "test@test.se",
+      "password": "$2b$10$Xa1KbEKzruVEBptYDxcwSO7sUJVXmNJ2JuVOvFmHnnkqBdgNxDQQa",
+      "role": "admin"
+    }
+  ],
+  "accounts": [
+    {
+      "site": "www.test.se",
+      "username": "chris",
+      "password": "$2b$10$wiiGzpjwDGFsT/eEob6OXeQotg1NxrqRwsBUTDf8D/B9uMqe7tqhm",
+      "email": "test@test.se"
+    },
+    {
+      "site": "www.test.se",
+      "username": "chris",
+      "password": "$2b$10$hNmB25kvaWptqen9coqMWOIcSHZQgCeqKQQB6FRS7UkWNtkYffgEq",
+      "email": "test@test.se"
+    }
+  ]
+}

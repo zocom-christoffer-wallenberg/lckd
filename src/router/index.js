@@ -1,0 +1,31 @@
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Login.vue'
+import Accounts from '../views/Accounts.vue';
+import AddAccount from '../views/AddAccount.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  {
+    path: '/',
+    name: 'Login',
+    component: Home
+  },
+  {
+    path: '/accounts',
+    name: 'Accounts',
+    component: Accounts
+  },
+  {
+    path: '/add',
+    name: 'Add account',
+    component: AddAccount
+  }
+]
+
+const router = new VueRouter({
+  routes
+})
+
+export default router
